@@ -69,27 +69,6 @@ nav {
     border-radius: 12px; /* optionnel */
 }
 
-.footer-menu {
-  text-align: center;
-  padding: 40px 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  font-family: 'Cormorant Garamond', serif;
-}
-
-.footer-menu a {
-  text-decoration: none;
-  color: #004aad;
-  font-size: 18px;
-  transition: opacity 0.2s;
-}
-
-.footer-menu a:hover {
-  opacity: 0.6;
-}
-
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   .burger {
@@ -118,14 +97,5 @@ nav {
   .hero-image {
         max-width: 90%;
         margin-top: 25px;
-  }
-
-  .footer-menu {
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .footer-menu a {
-    font-size: 20px;
   }
 }
