@@ -26,12 +26,6 @@ nav {
   position: relative;
 }
 
-.logo {
-  font-family: 'Clicker Script', cursive;
-  font-size: 28px;
-  color: var(--blue);
-}
-
 .menu {
   display: flex;
   gap: 25px;
