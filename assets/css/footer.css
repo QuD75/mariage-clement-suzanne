@@ -1,0 +1,32 @@
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 12px;
+  padding: 40px 20px;
+  justify-content: center;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: #004aad;
+  font-size: 18px;
+  transition: opacity 0.2s;
+}
+
+.footer-menu a:hover {
+  opacity: 0.6;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .footer-menu {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .footer-menu a {
+    font-size: 20px;
+  }
+}
