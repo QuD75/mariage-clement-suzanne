@@ -1,7 +1,7 @@
 .header {
+  text-decoration: none;   /* enlève le soulignement */
+  color: #004aad;
   font-family: 'Clicker Script', cursive;
   font-size: 28px;
-  color: #004aad;
   font-weight: 600;
-  letter-spacing: 1px;
 }
