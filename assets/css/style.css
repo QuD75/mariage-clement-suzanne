@@ -1,0 +1,99 @@
+:root {
+  --blue: #004aad;
+}
+
+/* ===== BASE ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+/* ===== NAV ===== */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  position: relative;
+}
+
+.logo {
+  font-family: 'Clicker Script', cursive;
+  font-size: 28px;
+  color: var(--blue);
+}
+
+.menu {
+  display: flex;
+  gap: 25px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--blue);
+  font-size: 20px;
+  transition: opacity 0.2s;
+}
+
+.menu a:hover {
+  opacity: 0.6;
+}
+
+/* ===== BURGER MENU ===== */
+.burger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: var(--blue);
+}
+
+#toggle {
+  display: none;
+}
+
+/* ===== HERO ===== */
+.hero {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-family: 'Clicker Script', cursive;
+  font-size: 64px;
+  color: var(--blue);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: white;
+    padding: 15px;
+    border: 1px solid #eee;
+  }
+
+  #toggle:checked + .burger + .menu {
+    display: flex;
+  }
+}
