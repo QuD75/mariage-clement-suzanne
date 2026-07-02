@@ -88,6 +88,7 @@ label:focus-visible {
 }
 
 .rule-block h3 {
+  font-family: 'Clicker Script', cursive;
   font-size: 26px;
   color: var(--blue);
   margin-bottom: 6px;
