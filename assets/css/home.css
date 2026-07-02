@@ -80,7 +80,7 @@
 
 /* ===== TEASER (apercu des rubriques) ===== */
 .teaser {
-  max-width: 960px;
+  max-width: 90%;
   margin: 55px auto 60px;
   padding: 0 20px;
   display: grid;
@@ -95,7 +95,7 @@
   color: var(--ink);
   border: 1px solid var(--sand);
   border-radius: 10px;
-  padding: 26px 16px;
+  padding: 10px 16px;
   transition: border-color 0.2s, transform 0.2s;
 }
 
