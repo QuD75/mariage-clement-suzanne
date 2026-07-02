@@ -1,0 +1,55 @@
+/* ===== PAGE WEEK-END ===== */
+
+.timeline {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.timeline h1 {
+    text-align: center;
+    font-family: 'Clicker Script', cursive;
+    color: #004aad;
+    font-size: 64px;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 30px;
+    margin-bottom: 35px;
+    align-items: start;
+}
+
+.time {
+    color: #004aad;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.content {
+    border-left: 2px solid #004aad;
+    padding-left: 25px;
+}
+
+.content h2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+    color: #004aad;
+}
+
+.content p {
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+.content a {
+    color: #004aad;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
