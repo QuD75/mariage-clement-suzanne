@@ -1,0 +1,16 @@
+/* ===== PAGE LISTE DE MARIAGE ===== */
+
+.gift-card {
+  max-width: 560px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid var(--sand);
+  border-radius: 12px;
+  padding: 40px 30px;
+}
+
+.gift-card p {
+  font-size: 20px;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
