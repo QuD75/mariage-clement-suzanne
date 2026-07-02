@@ -23,6 +23,7 @@
 }
 
 .time {
+    font-family: 'Clicker Script', cursive;
     color: #004aad;
     font-size: 28px;
     font-weight: 600;
@@ -35,6 +36,7 @@
 }
 
 .content h2 {
+    font-family: 'Clicker Script', cursive;
     font-size: 30px;
     margin-bottom: 8px;
     color: #004aad;
