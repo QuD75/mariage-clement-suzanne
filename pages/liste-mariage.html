@@ -3,32 +3,72 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mariage Suzanne & Clément</title>
+  <title>Liste de mariage - Mariage Suzanne & Clément</title>
+  <meta name="description" content="La liste de mariage de Suzanne et Clément pour le 12 juin 2027." />
+  <meta property="og:title" content="Liste de mariage - Mariage Suzanne & Clément" />
+  <meta property="og:description" content="Pour ceux qui souhaitent nous gâter le jour J." />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://mariagesuzanneclement.fr/pages/liste-mariage.html" />
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
 
-  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
 
-  <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="stylesheet" href="/assets/css/header.css" />
+  <link rel="stylesheet" href="/assets/css/footer.css" />
+  <link rel="stylesheet" href="/assets/css/liste-mariage.css" />
 </head>
 
 <body>
+
+  <a href="#main" class="skip-link">Aller au contenu</a>
 
   <nav>
     <a href="/index.html" class="header">S & C - 12 juin 2027</a>
 
     <input type="checkbox" id="toggle">
-    <label for="toggle" class="burger">☰</label>
+    <label for="toggle" class="burger" aria-label="Ouvrir le menu">☰</label>
 
     <div class="menu">
       <a href="/pages/weekend.html">Le week-end</a>
       <a href="/pages/informations-pratiques.html">Infos pratiques</a>
-      <a href="/pages/liste-mariage.html">Liste de mariage</a>
+      <a href="/pages/liste-mariage.html" aria-current="page">Liste de mariage</a>
       <a href="/pages/babysitting.html">Babysitting</a>
       <a href="/pages/contact.html">Contact</a>
     </div>
   </nav>
+
+  <main id="main">
+
+    <header class="page-header">
+      <h1>Liste de mariage</h1>
+      <p>Votre présence est le plus beau des cadeaux</p>
+    </header>
+
+    <section class="section">
+      <div class="gift-card">
+        <p>Votre présence à nos côtés le 12 juin 2027 est déjà un merveilleux cadeau.</p>
+        <p>Pour celles et ceux qui souhaiteraient tout de même nous gâter, voici comment participer :</p>
+        <p style="margin-top: 24px;"><span class="placeholder">Lien vers la liste (ex. plateforme de cagnotte) à ajouter</span></p>
+        <div class="btn-row">
+          <a href="#" class="btn btn-solid" aria-disabled="true">Voir la liste</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer-menu">
+    <a href="/pages/weekend.html">Le week-end</a>
+    <a href="/pages/informations-pratiques.html">Informations pratiques</a>
+    <a href="/pages/liste-mariage.html">Liste de mariage</a>
+    <a href="/pages/babysitting.html">Babysitting</a>
+    <a href="/pages/contact.html">Contact</a>
+  </footer>
+
+  <script src="/assets/js/menu.js" defer></script>
 
 </body>
 </html>

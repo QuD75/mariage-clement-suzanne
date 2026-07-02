@@ -3,32 +3,84 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mariage Suzanne & Clément</title>
+  <title>Contact - Mariage Suzanne & Clément</title>
+  <meta name="description" content="Une question sur le mariage de Suzanne et Clément le 12 juin 2027 ? Contactez-nous." />
+  <meta property="og:title" content="Contact - Mariage Suzanne & Clément" />
+  <meta property="og:description" content="Écrivez-nous pour toute question sur le mariage." />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://mariagesuzanneclement.fr/pages/contact.html" />
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
 
-  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
 
-  <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="stylesheet" href="/assets/css/header.css" />
+  <link rel="stylesheet" href="/assets/css/footer.css" />
+  <link rel="stylesheet" href="/assets/css/contact.css" />
 </head>
 
 <body>
+
+  <a href="#main" class="skip-link">Aller au contenu</a>
 
   <nav>
     <a href="/index.html" class="header">S & C - 12 juin 2027</a>
 
     <input type="checkbox" id="toggle">
-    <label for="toggle" class="burger">☰</label>
+    <label for="toggle" class="burger" aria-label="Ouvrir le menu">☰</label>
 
     <div class="menu">
       <a href="/pages/weekend.html">Le week-end</a>
       <a href="/pages/informations-pratiques.html">Infos pratiques</a>
       <a href="/pages/liste-mariage.html">Liste de mariage</a>
       <a href="/pages/babysitting.html">Babysitting</a>
-      <a href="/pages/contact.html">Contact</a>
+      <a href="/pages/contact.html" aria-current="page">Contact</a>
     </div>
   </nav>
+
+  <main id="main">
+
+    <header class="page-header">
+      <h1>Contact</h1>
+      <p>Une question ? Écrivez-nous</p>
+    </header>
+
+    <section class="section">
+      <div class="contact-wrap">
+        <p>Pour toute question sur le mariage, le programme, le babysitting ou pour confirmer votre présence, n'hésitez pas à nous écrire.</p>
+
+        <form class="contact-form" action="mailto:contact@mariagesuzanneclement.fr" method="post" enctype="text/plain">
+          <div>
+            <label for="name">Nom et prénom</label>
+            <input type="text" id="name" name="nom" required>
+          </div>
+          <div>
+            <label for="email">Votre e-mail</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="message">Votre message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit">Envoyer</button>
+        </form>
+        <p class="contact-note">Ce formulaire ouvre votre messagerie habituelle. <span class="placeholder">Adresse e-mail de contact à confirmer</span>.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer-menu">
+    <a href="/pages/weekend.html">Le week-end</a>
+    <a href="/pages/informations-pratiques.html">Informations pratiques</a>
+    <a href="/pages/liste-mariage.html">Liste de mariage</a>
+    <a href="/pages/babysitting.html">Babysitting</a>
+    <a href="/pages/contact.html">Contact</a>
+  </footer>
+
+  <script src="/assets/js/menu.js" defer></script>
 
 </body>
 </html>

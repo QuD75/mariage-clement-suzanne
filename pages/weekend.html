@@ -3,27 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mariage Suzanne & Clément</title>
+  <title>Le week-end - Mariage Suzanne & Clément</title>
+  <meta name="description" content="Le programme du week-end de mariage de Suzanne et Clément, le 12 juin 2027 : cérémonie, cocktail, dîner, bal et brunch du lendemain." />
+  <meta property="og:title" content="Le week-end - Mariage Suzanne & Clément" />
+  <meta property="og:description" content="Le déroulé complet du week-end : cérémonie, cocktail, dîner, bal et brunch." />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://mariagesuzanneclement.fr/pages/weekend.html" />
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
 
   <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
 
   <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="stylesheet" href="/assets/css/header.css" />
+  <link rel="stylesheet" href="/assets/css/footer.css" />
   <link rel="stylesheet" href="/assets/css/weekend.css" />
 </head>
 
 <body>
 
+  <a href="#main" class="skip-link">Aller au contenu</a>
+
   <nav>
     <a href="/index.html" class="header">S & C - 12 juin 2027</a>
 
     <input type="checkbox" id="toggle">
-    <label for="toggle" class="burger">☰</label>
+    <label for="toggle" class="burger" aria-label="Ouvrir le menu">☰</label>
 
     <div class="menu">
-      <a href="/pages/weekend.html">Le week-end</a>
+      <a href="/pages/weekend.html" aria-current="page">Le week-end</a>
       <a href="/pages/informations-pratiques.html">Infos pratiques</a>
       <a href="/pages/liste-mariage.html">Liste de mariage</a>
       <a href="/pages/babysitting.html">Babysitting</a>
@@ -31,58 +42,73 @@
     </div>
   </nav>
 
-  <section class="timeline">
+  <main id="main">
+    <section class="timeline">
 
-    <h1>Le week-end</h1>
+      <h1>Le week-end</h1>
+      <p style="text-align:center; font-size:19px; font-style:italic; color:#555; margin-top:-30px; margin-bottom:40px;">
+        Samedi 12 juin 2027 &mdash; le déroulé de la journée
+      </p>
 
-    <div class="timeline-item">
-        <div class="time">15h00</div>
-        <div class="content">
-            <h2>Messe de mariage</h2>
-            <p>
-                <a href="https://maps.app.goo.gl/5zYrwiQgFGLRnB7v5" target="_blank">
-                    Voir sur Google Maps
-                </a>
-            </p>
-        </div>
-    </div>
+      <div class="timeline-item">
+          <div class="time">15h00</div>
+          <div class="content">
+              <h2>Messe de mariage</h2>
+              <p>
+                  <a href="https://maps.app.goo.gl/5zYrwiQgFGLRnB7v5" target="_blank" rel="noopener">
+                      Voir sur Google Maps
+                  </a>
+              </p>
+          </div>
+      </div>
 
-    <div class="timeline-item">
-        <div class="time">17h30</div>
-        <div class="content">
-            <h2>Cocktail au château</h2>
-            <p>
-                <a href="https://maps.app.goo.gl/KUVvLvby3GHizrzz9" target="_blank">
-                    Voir sur Google Maps
-                </a>
-            </p>
-        </div>
-    </div>
+      <div class="timeline-item">
+          <div class="time">17h30</div>
+          <div class="content">
+              <h2>Cocktail au château</h2>
+              <p>
+                  <a href="https://maps.app.goo.gl/KUVvLvby3GHizrzz9" target="_blank" rel="noopener">
+                      Voir sur Google Maps
+                  </a>
+              </p>
+          </div>
+      </div>
 
-    <div class="timeline-item">
-        <div class="time">20h00</div>
-        <div class="content">
-            <h2>Dîner au château</h2>
-        </div>
-    </div>
+      <div class="timeline-item">
+          <div class="time">20h00</div>
+          <div class="content">
+              <h2>Dîner au château</h2>
+          </div>
+      </div>
 
-    <div class="timeline-item">
-        <div class="time">23h30</div>
-        <div class="content">
-            <h2>Ouverture du bal</h2>
-            <p>Début de la soirée dansante</p>
-        </div>
-    </div>
+      <div class="timeline-item">
+          <div class="time">23h30</div>
+          <div class="content">
+              <h2>Ouverture du bal</h2>
+              <p>Début de la soirée dansante</p>
+          </div>
+      </div>
 
-    <div class="timeline-item">
-        <div class="time">11h00 - 12h00</div>
-        <div class="content">
-            <h2>Brunch</h2>
-            <p>Le lendemain, au château</p>
-        </div>
-    </div>
+      <div class="timeline-item">
+          <div class="time">11h00 - 12h00</div>
+          <div class="content">
+              <h2>Brunch</h2>
+              <p>Le lendemain, au château</p>
+          </div>
+      </div>
 
-</section>
+    </section>
+  </main>
+
+  <footer class="footer-menu">
+    <a href="/pages/weekend.html">Le week-end</a>
+    <a href="/pages/informations-pratiques.html">Informations pratiques</a>
+    <a href="/pages/liste-mariage.html">Liste de mariage</a>
+    <a href="/pages/babysitting.html">Babysitting</a>
+    <a href="/pages/contact.html">Contact</a>
+  </footer>
+
+  <script src="/assets/js/menu.js" defer></script>
 
 </body>
 </html>
