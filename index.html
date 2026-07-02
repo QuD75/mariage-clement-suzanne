@@ -3,24 +3,41 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mariage Suzanne & Clément</title>
+  <title>Suzanne & Clément se marient - 12 juin 2027</title>
+  <meta name="description" content="Suzanne et Clément se marient le 12 juin 2027. Retrouvez ici le programme du week-end, les informations pratiques, la liste de mariage et le babysitting." />
 
-  <!-- Fonts -->
+  <!-- Open Graph -->
+  <meta property="og:title" content="Suzanne & Clément se marient - 12 juin 2027" />
+  <meta property="og:description" content="Toutes les informations pour le mariage de Suzanne et Clément : programme, infos pratiques, liste de mariage et babysitting." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://mariagesuzanneclement.fr/assets/images/suzanne_clement_croisic.png" />
+  <meta property="og:url" content="https://mariagesuzanneclement.fr/" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="canonical" href="https://mariagesuzanneclement.fr/" />
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
+
+  <!-- Preconnect + Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
 
   <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="stylesheet" href="/assets/css/header.css" />
   <link rel="stylesheet" href="/assets/css/footer.css" />
+  <link rel="stylesheet" href="/assets/css/home.css" />
 </head>
 
 <body>
 
+  <a href="#main" class="skip-link">Aller au contenu</a>
+
   <nav>
-    <a href="index.html" class="header">S & C - 12 juin 2027</a>
+    <a href="/index.html" class="header">S & C - 12 juin 2027</a>
 
     <input type="checkbox" id="toggle">
-    <label for="toggle" class="burger">☰</label>
+    <label for="toggle" class="burger" aria-label="Ouvrir le menu">☰</label>
 
     <div class="menu">
       <a href="/pages/weekend.html">Le week-end</a>
@@ -31,21 +48,84 @@
     </div>
   </nav>
 
-<div class="hero">
-    <img
-        src="assets/images/suzanne_clement_croisic.png"
-        alt="Suzanne et Clément"
-        class="hero-image">
-</div>
+  <main id="main">
+
+    <section class="intro">
+      <p class="eyebrow">Ils se disent oui</p>
+      <h1>Suzanne &amp; Clément</h1>
+      <p class="date">Samedi 12 juin 2027</p>
+      <p class="place">Au Croisic</p>
+    </section>
+
+    <div class="countdown" data-countdown>
+      <div class="unit">
+        <div class="value" data-days>–</div>
+        <div class="label">jours</div>
+      </div>
+      <div class="unit">
+        <div class="value" data-hours>–</div>
+        <div class="label">heures</div>
+      </div>
+      <div class="unit">
+        <div class="value" data-minutes>–</div>
+        <div class="label">minutes</div>
+      </div>
+      <div class="unit">
+        <div class="value" data-seconds>–</div>
+        <div class="label">secondes</div>
+      </div>
+    </div>
+    <p class="place" data-countdown-message hidden style="text-align:center; margin-top: 20px;">C'est le grand jour !</p>
+
+    <div class="hero">
+      <picture>
+        <source srcset="/assets/images/suzanne_clement_croisic.webp" type="image/webp">
+        <img
+            src="/assets/images/suzanne_clement_croisic.png"
+            alt="Suzanne et Clément au Croisic"
+            class="hero-image"
+            width="582"
+            height="567"
+            loading="eager"
+            fetchpriority="high">
+      </picture>
+    </div>
+
+    <nav class="teaser" aria-label="Rubriques du site">
+      <a href="/pages/weekend.html">
+        <span class="teaser-title">Le week-end</span>
+        <span class="teaser-desc">Le programme, heure par heure</span>
+      </a>
+      <a href="/pages/informations-pratiques.html">
+        <span class="teaser-title">Infos pratiques</span>
+        <span class="teaser-desc">Adresse, logement, dress code</span>
+      </a>
+      <a href="/pages/liste-mariage.html">
+        <span class="teaser-title">Liste de mariage</span>
+        <span class="teaser-desc">Pour ceux qui souhaitent nous gâter</span>
+      </a>
+      <a href="/pages/babysitting.html">
+        <span class="teaser-title">Babysitting</span>
+        <span class="teaser-desc">Pour profiter de la soirée l'esprit léger</span>
+      </a>
+      <a href="/pages/contact.html">
+        <span class="teaser-title">Contact</span>
+        <span class="teaser-desc">Une question ? Écrivez-nous</span>
+      </a>
+    </nav>
+
+  </main>
+
+  <footer class="footer-menu">
+    <a href="/pages/weekend.html">Le week-end</a>
+    <a href="/pages/informations-pratiques.html">Informations pratiques</a>
+    <a href="/pages/liste-mariage.html">Liste de mariage</a>
+    <a href="/pages/babysitting.html">Babysitting</a>
+    <a href="/pages/contact.html">Contact</a>
+  </footer>
+
+  <script src="/assets/js/menu.js" defer></script>
+  <script src="/assets/js/countdown.js" defer></script>
 
 </body>
-
-<footer class="footer-menu">
-  <a href="pages/weekend.html">Le week-end</a>
-  <a href="pages/informations-pratiques.html">Informations pratiques</a>
-  <a href="pages/liste-mariage.html">Liste de mariage</a>
-  <a href="pages/babysitting.html">Babysitting</a>
-  <a href="pages/contact.html">Contact</a>
-</footer>
-  
 </html>
