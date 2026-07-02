@@ -15,11 +15,12 @@
 }
 
 .timeline-item {
-    display: grid;
-    grid-template-columns: 120px 1fr;
-    gap: 30px;
-    margin-bottom: 35px;
-    align-items: start;
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 30px;
+  margin: 0 auto 35px;
+  max-width: 900px;
+  padding: 0 20px;
 }
 
 .time {
