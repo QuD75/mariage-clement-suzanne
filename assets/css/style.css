@@ -190,18 +190,6 @@ nav {
   display: none;
 }
 
-/* ===== HERO ===== */
-.hero {
-    padding: 10px 10px 10px;
-    text-align: center;
-}
-
-.hero-image {
-    display: block;
-    max-width: 90%;
-    margin: 20px auto 0;
-}
-
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   .burger {
@@ -221,15 +209,6 @@ nav {
 
   #toggle:checked + .burger + .menu {
     display: flex;
-  }
-
-  .hero {
-        padding: 10px 10px 10px;
-  }
-
-  .hero-image {
-        max-width: 90%;
-        margin-top: 10px;
   }
 
   .page-header h1 {
