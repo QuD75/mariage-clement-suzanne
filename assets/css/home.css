@@ -80,7 +80,7 @@
 /* ===== TEASER (apercu des rubriques) ===== */
 .teaser {
   max-width: 90%;
-  margin: 20px auto 20px;
+  margin: 20px auto 0px;
   padding: 0 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
