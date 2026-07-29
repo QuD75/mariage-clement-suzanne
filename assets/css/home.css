@@ -94,7 +94,7 @@
   display: block;
   text-decoration: none;
   color: var(--ink);
-  border: 1px solid var(--sand);
+  border: 2px solid var(--sand);
   border-radius: 10px;
   padding: 10px 16px;
   transition: border-color 0.2s, transform 0.2s;
