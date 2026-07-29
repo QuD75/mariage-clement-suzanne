@@ -1,5 +1,12 @@
+nav {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
 .header {
-  text-decoration: none;   /* enlève le soulignement */
+  display: inline-block;
+  text-decoration: none;
   color: #004aad;
   font-family: 'Clicker Script', cursive;
   font-size: 28px;
