@@ -1,11 +1,5 @@
 /* ===== PAGE WEEK-END ===== */
 
-.timeline {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
 .timeline h1 {
     text-align: center;
     font-family: 'Clicker Script', cursive;
@@ -14,14 +8,19 @@
     margin-bottom: 50px;
 }
 
+.timeline {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 .timeline-item {
   display: grid;
-  gap: 30px;
-  margin: 0 auto 35px;
-  max-width: 900px;
-  padding: 0 20px;
   grid-template-columns: 120px 1fr 40px;
+  gap: 30px;
   align-items: center;
+  margin: 0 auto 35px;
+  width: 100%;
 }
 
 .time {
