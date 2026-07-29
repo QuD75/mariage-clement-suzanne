@@ -3,6 +3,7 @@
   text-align: center;
   padding: 20px 0;
   display: inline;
+  border-bottom: 2px solid var(--sand);
 }
 
 .header {
