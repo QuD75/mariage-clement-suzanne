@@ -79,6 +79,13 @@
     border-radius: 12px;
 }
 
+.logo {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: 0 auto 0;
+}
+
 /* ===== TEASER (apercu des rubriques) ===== */
 .teaser {
   max-width: 90%;
