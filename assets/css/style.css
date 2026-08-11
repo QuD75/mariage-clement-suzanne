@@ -211,7 +211,11 @@ nav {
   }
 
   .page-header h1 {
-    font-size: 46px;
+    text-align: center;
+    font-family: 'Clicker Script', cursive;
+    color: #004aad;
+    font-size: 64px;
+    margin-bottom: 50px;
   }
 
   .page-header p {
