@@ -68,6 +68,36 @@
   font-size: 18px;
 }
 
+.timeline-day {
+  position: relative;
+  text-align: center;
+  margin: 50px 0 30px;
+}
+
+.timeline-day::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #d9d9d9;
+  z-index: 0;
+}
+
+.timeline-day h2 {
+  position: relative;
+  display: inline-block;
+  padding: 0 20px;
+  background: white;
+  font-family: 'Clicker Script', cursive;
+  color: #004aad;
+  font-size: 3rem;
+  font-weight: normal;
+  margin: 0;
+  z-index: 1;
+}
+
 @media (max-width: 768px) {
 
     .timeline {
